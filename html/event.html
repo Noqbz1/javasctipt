@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> โปรแกรมแปลงหน่วย</h1>
+    <input id="inputvalue" type="text"> <!-- รับข้อมูลเเป็น text-->
+    <button onclick="toCelsiusprogram(document.getElementById('inputvalue').value)"> แปลงเป็น Celsius</button> <!-- เรียกใช้งาน ใช้ .value -->
+    <button onclick="toFahrenheiprogram(document.getElementById('inputvalue').value)"> แปลงเป็น Fahrenhei</button>
+    <div id="toCelsius"></div>
+    <div id="toFahrenheit"></div>
+    <script src="event.js"></script>
+</body>
+</html>
